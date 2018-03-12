@@ -67,12 +67,12 @@ def run_test_sum_more_cosines():
 
     expected = -1.77612  # This is APPROXIMATELY the correct answer.
     answer = sum_more_cosines(2, 5)
-    print('Test 1 expected:', expected, '(approximately)')
+    print('Test 2 expected:', expected, '(approximately)')
     print('       actual:  ', answer)
 
     expected = 0.65744  # This is APPROXIMATELY the correct answer.
     answer = sum_more_cosines(6, 9)
-    print('Test 1 expected:', expected, '(approximately)')
+    print('Test 3 expected:', expected, '(approximately)')
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
@@ -140,27 +140,27 @@ def run_test_count_sines_from():
 
     expected = 3
     answer = count_sines_from(4, 6)
-    print('Test 1 expected:', expected)
+    print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 0
     answer = count_sines_from(7, 7)
-    print('Test 1 expected:', expected)
+    print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 1
     answer = count_sines_from(9, 9)
-    print('Test 1 expected:', expected)
+    print('Test 4 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 4
     answer = count_sines_from(3, 6)
-    print('Test 1 expected:', expected)
+    print('Test 5 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 1
     answer = count_sines_from(7, 9)
-    print('Test 1 expected:', expected)
+    print('Test 6 expected:', expected)
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
@@ -230,27 +230,27 @@ def run_test_count_sines_vs_cosines():
 
     expected = 6
     answer = count_sines_vs_cosines(5)
-    print('Test 1 expected:', expected)
+    print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 4
     answer = count_sines_vs_cosines(3)
-    print('Test 1 expected:', expected)
+    print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 0
     answer = count_sines_vs_cosines(0)
-    print('Test 1 expected:', expected)
+    print('Test 4 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 1
     answer = count_sines_vs_cosines(1)
-    print('Test 1 expected:', expected)
+    print('Test 5 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 24
     answer = count_sines_vs_cosines(23)
-    print('Test 1 expected:', expected)
+    print('Test 6 expected:', expected)
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
