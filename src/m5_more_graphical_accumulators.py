@@ -134,8 +134,33 @@ def run_test_draw_circles_from_rectangle():
     print('  See the graphics windows that pop up.')
     print('--------------------------------------------------')
 
+    m = 1
+    n = 2
+    corner_1 = rg.Point(1, 2)
+    corner_2 = rg.Point(4, 5)
+    rectangle_1 = rg.Rectangle(corner_1, corner_2)
+    window_1 = rg.RoseWindow(525, 300)
+    draw_circles_from_rectangle(m, n, rectangle_1, window_1)
+
+    m = 2
+    n = 2
+    corner_1 = rg.Point(5, 2)
+    corner_2 = rg.Point(7, 5)
+    rectangle_1 = rg.Rectangle(corner_1, corner_2)
+    draw_circles_from_rectangle(m, n, rectangle_1, window_1)
+    window_1.close_on_mouse_click()
+
+    m = 3
+    n = 4
+    corner_1 = rg.Point(1, 5)
+    corner_2 = rg.Point(7, 5)
+    rectangle_1 = rg.Rectangle(corner_1, corner_2)
+    window_2 = rg.RoseWindow(600, 300,)
+    draw_circles_from_rectangle(m, n, rectangle_1, window_2)
+    window_2.close_on_mouse_click()
+
     # ------------------------------------------------------------------
-    # TODO: 3. Implement this TEST function.
+    # DONE: 3. Implement this TEST function.
     #   It TESTS the  draw_circles_from_rectangle  function
     #   defined below.  Include at least **   3   ** tests, of which
     #      ***  at least TWO tests are on ONE window and
